@@ -112,7 +112,7 @@ main{
         line-height:1.4;
     }
     .top-right{
-        marginn-top:20px
+        margin-top:20px
     }
     .rating{
         flex-direction: row;
@@ -135,10 +135,10 @@ main{
         max-width: 27.5%;
     }
     .card:nth-child(2){
-        top: 50px;
+        top: 30px;
     }
     .card:nth-child(3){
-        top: 100px;
+        top: 60px;
     }
 
     footer{
