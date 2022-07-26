@@ -109,6 +109,8 @@ main{
     }
     #title, .top p{
         text-align: start;
+    }
+    p{
         line-height:1.4;
     }
     .top-right{
@@ -135,10 +137,10 @@ main{
         max-width: 27.5%;
     }
     .card:nth-child(2){
-        top: 30px;
+        top: 25px;
     }
     .card:nth-child(3){
-        top: 60px;
+        top: 50px;
     }
 
     footer{
