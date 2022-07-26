@@ -109,6 +109,10 @@ main{
     }
     #title, .top p{
         text-align: start;
+        line-height:1.4;
+    }
+    .top-right{
+        marginn-top:20px
     }
     .rating{
         flex-direction: row;
