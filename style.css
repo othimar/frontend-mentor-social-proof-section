@@ -128,7 +128,7 @@ main{
     }
     .card{
         position: relative;
-        max-width: 25%;
+        max-width: 27.5%;
     }
     .card:nth-child(2){
         top: 50px;
