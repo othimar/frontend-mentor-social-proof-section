@@ -7,7 +7,10 @@
 *{
     font-family: "League Spartan";
     font-size: 15px;
-    
+}
+
+p{
+    line-height: 100%;
 }
 body{
     background-image: url("./images/bg-pattern-top-mobile.svg"), url("./images/bg-pattern-bottom-mobile.svg");
@@ -50,7 +53,7 @@ main{
 }
 .card{
     background-color: var(--magenta);
-    padding: 40px;
+    padding: 25px;
     border-radius: 16px;
     margin-bottom: 15px;
     color: white;
@@ -58,9 +61,7 @@ main{
 
 }
 .identity{
-    display: grid;
-    grid-template-areas: "a b"
-                         "a c";
+    display: flex;
     align-items: center;
     justify-content: left;
     column-gap: 25px;
@@ -72,11 +73,13 @@ main{
     border-radius: 50%;
     grid-area: a;
 }
-.name{
-    grid-area:b;
+.identity div{
+    display: flex;
+    flex-direction: column;
 }
+
 .verified-buyer{
-    grid-area: c;
+    
     color: var(--soft-pink);
 }
 .card-text{
